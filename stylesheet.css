@@ -1,0 +1,746 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    /* margin: auto; */
+    font-family: 'Jost', 'Open Sans', 'Poppins', sans-serif;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='834' height='697' viewBox='0 0 834 697' fill='none'%3E%3Cpath d='M834 0H0V697C36.8288 664.429 180 610.715 180 610.715C180 610.715 251.121 590.549 268.5 527.793C298.906 532.457 285.791 435.481 363 411.252C449.717 424.279 455.513 374.745 492 291.35C528.487 207.956 569.917 303.29 621 200.584C672.083 97.877 656.775 137.022 730.792 103.584C804.81 70.147 834 0 834 0Z' fill='%23DEE2FB'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: fit;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.infocontainer {
+
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 72px;
+    height: 62px;
+    gap: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.01);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.11);
+}
+
+.headerinfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.location h5 {
+    color: var(--main-color, #355EFC);
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: max-content;
+
+}
+
+.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
+.active h5 {
+    color: var(--main-color, #355EFC);
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 35.5px;
+}
+
+.email {
+    display: flex;
+    gap: 10px;
+}
+
+.email h5 {
+    display: flex;
+    color: var(--main-color, #355EFC);
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    gap: 10px;
+}
+
+.phone h5 {
+    color: var(--main-color, #355EFC);
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: max-content;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.websitename h1 {
+    width: 196px;
+    flex-shrink: 0;
+    color: var(--main-color, #355EFC);
+    text-align: center;
+    font-family: "Jost";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px;
+    padding-right: 306px;
+}
+
+.menu ul {
+    display: flex;
+    width: 424px;
+    align-items: center;
+    gap: 15px;
+    list-style-type: none;
+}
+
+.menu li {
+    color: var(--main-color, #355EFC);
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.welcometo {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    gap: 25px;
+    padding-left: 72px;
+    padding-top: 97px;
+}
+
+.welcometo button {
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    color: var(--main-color, #355EFC);
+    text-align: center;
+    text-decoration: none;
+    background-color: #DEE2FB;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.welcometo h1 {
+    width: 731px;
+    color: #011A41;
+    font-family: "Open Sans";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 96px;
+    /* 120% */
+}
+
+.welcometo .exploremore {
+    display: flex;
+    padding: 10px 25px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    background: var(--main-color, #355EFC);
+    color: #F5F5F5;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    border: none;
+}
+
+.growbussiness {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 72px;
+    margin-top: 77px;
+    gap: 24px;
+}
+
+.growbussiness img {
+    max-width: 100%;
+    height: auto;
+}
+
+.aboutcomponent {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 19px;
+}
+
+.aboutcomponent button {
+    display: flex;
+    padding: 10px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 11px;
+    border: 1px solid #CAD2FC;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.36);
+    color: var(--main-color, #355EFC);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.aboutcomponent h1 {
+    width: 549px;
+    height: 116px;
+    color: var(--Heading-color, #011A41);
+    font-family: Jost;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.aboutcomponent p {
+    width: 549px;
+    height: 72px;
+    color: var(--small-text-color, #555);
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+.tabcomponent {
+    display: flex;
+    justify-content: center;
+}
+
+/* sashualo ekrani */
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+    .infocontainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 10px;
+        gap: 30px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.01);
+        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.11);
+    }
+
+    .headerinfo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+    }
+
+    .location {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+
+    }
+
+    .location h5 {
+        color: var(--main-color, #355EFC);
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: normal;
+        width: max-content;
+
+    }
+
+    .headerinfo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .location {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+
+    }
+
+    .location h5 {
+        color: var(--main-color, #355EFC);
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: normal;
+        width: max-content;
+
+    }
+
+    .active {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        flex-shrink: 0;
+        align-self: stretch;
+    }
+
+    .active h5 {
+        color: var(--main-color, #355EFC);
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: normal;
+    }
+
+    .contact {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .email {
+        display: flex;
+        gap: 5px;
+    }
+
+    .email h5 {
+        display: flex;
+        color: var(--main-color, #355EFC);
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: normal;
+    }
+
+    .phone {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .phone h5 {
+        color: var(--main-color, #355EFC);
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: normal;
+        width: max-content;
+    }
+
+    .navigation {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+
+    .websitename h1 {
+        color: var(--main-color, #355EFC);
+        text-align: center;
+        font-family: "Jost";
+        font-size: 48px;
+        font-style: normal;
+        line-height: 40px;
+        padding-right: 200px;
+    }
+
+    .menu ul {
+        display: flex;
+        width: 300px;
+        align-items: center;
+        gap: 10px;
+        list-style-type: none;
+    }
+
+    .menu li {
+        color: var(--main-color, #355EFC);
+        text-align: center;
+        font-family: "Poppins";
+        font-size: 13px;
+        font-style: normal;
+        line-height: normal;
+    }
+
+    .socmedia {
+        display: flex;
+        flex-direction: column;
+        padding-top: 3px;
+    }
+
+    .welcometo {
+        display: flex;
+        flex-direction: column;
+        align-items: first baseline;
+        gap: 25px;
+        padding: 0 30px;
+        padding-top: 50px;
+    }
+
+    .welcometo button {
+        display: flex;
+        padding: 10px;
+        align-items: flex-start;
+        gap: 8px;
+        border-radius: 8px;
+        border: 1px solid #FFF;
+        color: var(--main-color, #355EFC);
+        text-align: center;
+        text-decoration: none;
+        background-color: #DEE2FB;
+        font-family: "Poppins";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 20px;
+    }
+
+    .welcometo h1 {
+        width: 601px;
+        color: #011A41;
+        font-family: "Open Sans";
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 96px;
+    }
+
+    .welcometo .exploremore {
+        display: flex;
+        padding: 10px 20px;
+        align-items: flex-start;
+        gap: 8px;
+        border-radius: 10px;
+        background: var(--main-color, #355EFC);
+        color: #F5F5F5;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        border: none;
+    }
+
+    .growbussiness {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0 30px;
+        margin-top: 40px;
+        gap: 15px;
+    }
+
+    .growbussiness img {
+        max-width: 100%;
+        height: auto;
+        padding: 40px 90px 40px 60px;
+    }
+
+    .aboutcomponent {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        gap: 15px;
+    }
+
+    .aboutcomponent button {
+        display: flex;
+        padding: 10px 15px;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        border-radius: 11px;
+        border: 1px solid #CAD2FC;
+        box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.36);
+        color: var(--main-color, #355EFC);
+        font-family: "Open Sans";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .aboutcomponent h1 {
+        width: 549px;
+        height: 116px;
+        color: var(--Heading-color, #011A41);
+        font-family: Jost;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 58px;
+    }
+
+    .aboutcomponent p {
+        color: var(--small-text-color, #555);
+        font-family: "Poppins";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 150% */
+    }
+}
+
+/* patara ekrani */
+@media only screen and (max-width: 575px) {
+    .infocontainer {
+        
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        gap: 20px;
+        align-items: center;
+        font-size: 8px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.01);
+        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.11);
+    }
+
+    .headerinfo {
+        display: flex;
+    }
+
+    .contact,
+    .headerinfo {
+        gap: 30px;
+    }
+
+    .location h5 {
+        display: none;
+
+    }
+
+    .active h5 {
+        display: none;
+    }
+
+    .email h5 {
+        display: none;
+    }
+
+    .phone h5 {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+
+    .websitename h1 {
+        color: var(--main-color, #355EFC);
+        width: 50px;
+        text-align: center;
+        font-family: "Jost";
+        font-size: 48px;
+        font-style: normal;
+        line-height: 40px;
+
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        align-items: center;
+        gap: 7px;
+        list-style-type: none;
+        padding-top: 5px;
+    }
+
+    .menu li {
+        color: var(--main-color, #355EFC);
+        text-align: center;
+        font-family: "Poppins";
+        font-size: 13px;
+        font-style: normal;
+        line-height: normal;
+    }
+
+    .socmedia {
+        display: flex;
+        flex-direction: column;
+        padding-top: 3px;
+    }
+
+    .welcometo {
+        display: flex;
+        flex-direction: column;
+        align-items: first baseline;
+        gap: 25px;
+        padding: 0 30px;
+        padding-top: 50px;
+    }
+
+    .welcometo button {
+        display: flex;
+        padding: 10px;
+        align-items: flex-start;
+        gap: 8px;
+        border-radius: 8px;
+        border: 1px solid #FFF;
+        color: var(--main-color, #355EFC);
+        text-align: center;
+        text-decoration: none;
+        background-color: #DEE2FB;
+        font-family: "Poppins";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .welcometo h1 {
+        width: 601px;
+        color: #011A41;
+        font-family: "Open Sans";
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 90px;
+    }
+
+    .welcometo .exploremore {
+        display: flex;
+        padding: 10px 20px;
+        align-items: flex-start;
+        gap: 8px;
+        border-radius: 10px;
+        background: var(--main-color, #355EFC);
+        color: #F5F5F5;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        border: none;
+    }
+
+    .growbussiness {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0 30px;
+        margin-top: 40px;
+        gap: 15px;
+    }
+
+    .growbussiness img {
+        max-width: 100%;
+        height: auto;
+        padding: 40px 90px 40px 60px;
+    }
+
+    .aboutcomponent {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        gap: 15px;
+    }
+
+    .aboutcomponent button {
+        display: flex;
+        padding: 10px 15px;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        border-radius: 11px;
+        border: 1px solid #CAD2FC;
+        box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.36);
+        color: var(--main-color, #355EFC);
+        font-family: "Open Sans";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .aboutcomponent h1 {
+        width: 549px;
+        height: 116px;
+        color: var(--Heading-color, #011A41);
+        font-family: Jost;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 58px;
+    }
+
+    .aboutcomponent p {
+        color: var(--small-text-color, #555);
+        font-family: "Poppins";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 150% */
+    }
+}
