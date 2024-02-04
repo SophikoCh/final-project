@@ -6,7 +6,7 @@
 }
 
 body {
-    min-height: 100vh;
+    width: 100%;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -154,7 +154,6 @@ body {
     line-height: normal;
 }
 
-
 .welcometo {
     display: flex;
     flex-direction: column;
@@ -275,8 +274,107 @@ body {
     justify-content: center;
 }
 
+.benefits {
+    padding: 20px;
+    border-radius: 25px;
+    gap: 20px;
+    border: 1px solid #909DE2;
+    
+    
+}
+.offering {
+    display: flex;
+}
+
+.hidden-cost,
+.dedicated-team,
+.available {
+    display: flex;
+}
+
+.hidden-cost h4 {
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 172px;
+    height: 29px;
+    align-items: center;
+
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden-cost p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 260.5px;
+    height: 48px;
+}
+
+.dedicated-team h4 {
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 172px;
+    height: 29px;
+    align-items: center;
+
+}
+
+.dedicated-team p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 260.5px;
+    height: 48px;
+}
+
+.available h4 {
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 172px;
+    height: 29px;
+    align-items: center;
+
+}
+
+.available p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 260.5px;
+    height: 48px;
+}
+
 /* sashualo ekrani */
 @media only screen and (min-width: 576px) and (max-width: 991px) {
+    body {
+        width: 100%;
+    }
+
     .infocontainer {
         display: flex;
         align-items: center;
@@ -432,6 +530,7 @@ body {
         display: flex;
         flex-direction: column;
         padding-top: 3px;
+        padding-right: 10px;
     }
 
     .welcometo {
@@ -550,10 +649,12 @@ body {
 
 /* patara ekrani */
 @media only screen and (max-width: 575px) {
-    .infocontainer {
-        
-        display: flex;
+    body {
         width: 100%;
+    }
+
+    .infocontainer {
+        display: flex;
         justify-content: space-between;
         gap: 20px;
         align-items: center;
@@ -590,6 +691,7 @@ body {
 
     .navigation {
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: space-between;
         padding: 0 30px;
@@ -598,12 +700,14 @@ body {
     .websitename h1 {
         color: var(--main-color, #355EFC);
         width: 50px;
+        padding-top: 10px;
+        margin: 0 auto;
         text-align: center;
         font-family: "Jost";
         font-size: 48px;
         font-style: normal;
         line-height: 40px;
-
+        padding-right: 100px;
     }
 
     .menu ul {
@@ -614,6 +718,7 @@ body {
         gap: 7px;
         list-style-type: none;
         padding-top: 5px;
+        margin: 0 auto;
     }
 
     .menu li {
@@ -627,7 +732,6 @@ body {
 
     .socmedia {
         display: flex;
-        flex-direction: column;
         padding-top: 3px;
     }
 
@@ -635,7 +739,8 @@ body {
         display: flex;
         flex-direction: column;
         align-items: first baseline;
-        gap: 25px;
+        width: 200px;
+        gap: 20px;
         padding: 0 30px;
         padding-top: 50px;
     }
@@ -655,17 +760,17 @@ body {
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 20px;
+        line-height: 25px;
     }
 
     .welcometo h1 {
-        width: 601px;
+        width: 330px;
         color: #011A41;
         font-family: "Open Sans";
-        font-size: 70px;
+        font-size: 40px;
         font-style: normal;
         font-weight: 700;
-        line-height: 90px;
+        line-height: 60px;
     }
 
     .welcometo .exploremore {
@@ -703,6 +808,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: baseline;
+        width: 350px;
         gap: 15px;
     }
 
@@ -711,7 +817,7 @@ body {
         padding: 10px 15px;
         justify-content: center;
         align-items: center;
-        gap: 6px;
+        gap: 3px;
         border-radius: 11px;
         border: 1px solid #CAD2FC;
         box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.36);
@@ -724,17 +830,18 @@ body {
     }
 
     .aboutcomponent h1 {
-        width: 549px;
-        height: 116px;
+        width: 300px;
+        height: auto;
         color: var(--Heading-color, #011A41);
         font-family: Jost;
-        font-size: 48px;
+        font-size: 30px;
         font-style: normal;
         font-weight: 700;
-        line-height: 58px;
+        line-height: 40px;
     }
 
     .aboutcomponent p {
+        width: 300px;
         color: var(--small-text-color, #555);
         font-family: "Poppins";
         font-size: 16px;

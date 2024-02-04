@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link href="https://fonts.googleapis.com/css2?family=Jost&family=Open+Sans&family=Poppins&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="./navigation.css">
+
 </head>
 
 <body>
@@ -57,10 +59,10 @@
         </div>
         <div class="menu">
             <ul>
-                <li>Home</li>
+                <li><a href="/">Home</a></li>
                 <li>About</li>
                 <li>Services</li>
-                <li>Pages
+                <li class="show-pages">Pages
                     <a href="">
                         <svg xmlns="http://www.w3.org/2000/svg" width="15" height="8" viewBox="0 0 15 8" fill="none">
                             <path
@@ -79,6 +81,15 @@
         </div>
     </section>
 
+    <!-- <section class="hover-show">
+        <div>
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <h1>Lorem ipsum dolor sit amet.</h1>
+        </div>
+    </section> -->
     <section class="sliders">
         <div class="welcometo">
             <button>Welcome to Finanza</button>
@@ -86,9 +97,9 @@
             <button class="exploremore">explore more</button>
         </div>
     </section>
-    <section class="aboutus"> 
+    <section class="aboutus">
         <div class="growbussiness">
-            <img src="/fonts/bussinesman.png" id="bussinesimg"  alt=""> 
+            <img src="/fonts/bussinesman.png" id="bussinesimg" alt="">
             <div class="changetxt">
                 <div class="aboutcomponent">
                     <button> About Us </button>
@@ -97,16 +108,56 @@
                         erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                 </div>
                 <div class="tabcomponent">
-                    <a href="">Story</a>
-                    <p class="story"></p>
-                    <a href="">Mission</a>
-                    <p class="Mission"></p>
-                    <a href="">Vission</a>
-                    <p class="vission"></p>
+                    <!-- <a href="./pages/s">story</a>
+                    <p class="story"> Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit.Aliqu diam
+                        amet diam et eos labore.
+                        Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et
+                        lorem et sit</p>
+                    <a href="./pages/mission/mission.html">Mission</a>
+                    <p class="Mission"> Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit.Aliqu diam
+                        amet diam et eos labore.
+
+                        Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et
+                        lorem et sit</p>
+                    <a href="./pages/vision/vision.html">Vission</a>
+                    <p class="vission"> Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit.Aliqu diam
+                        amet diam et eos labore.
+
+                        Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et
+                        lorem et sit</p> -->
                 </div>
-            </div> 
-         </div> 
-     </section>
+            </div>
+        </div>
+    </section>
+    <section class="benefits">
+        <div class="offering">
+            <div class="hidden-cost">
+                <div class="close">
+                    <img src="fonts/closeclose.png" alt="">
+                </div>
+                <div class="icon">
+                    <h4>No Hidden Cost</h4>
+                    <p>Clita erat ipsum lorem sit sed stet duo justo</p>
+                </div>
+            </div>
+            <div class="dedicated-team">
+                <div class="user">
+                    <img src="fonts/usersusers.png" alt="">
+                </div>
+                <div class="icon">
+                    <h4> Dedicated Team</h4>
+                    <p>Clita erat ipsum lorem sit sed stet duo justo</p>
+                </div>
+            </div>
+            <div class="available">
+                <div class="phone"><img src="fonts/phonephone.png" alt=""></div>
+                <div class="icon">
+                    <h4>24/7 Available</h4>
+                    <p>Clita erat ipsum lorem sit sed stet duo justo</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
