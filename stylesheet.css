@@ -644,8 +644,8 @@ body {
 }
 
 .get-in-touch button {
-    width: Fixed (125px);
-    height: Hug (42px);
+    width: 125px;
+    height:42px;
     padding: 10px, 15px, 10px, 15px;
     border-radius: 11px;
     border: 1px;
