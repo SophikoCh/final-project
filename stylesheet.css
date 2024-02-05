@@ -6,8 +6,9 @@
 }
 
 body {
-    width: 100%;
-    margin: 0;
+    width: 1240px;
+
+    margin: auto;
     display: flex;
     flex-direction: column;
     /* margin: auto; */
@@ -436,6 +437,7 @@ body {
     height: 44px;
     text-align: center;
     color: #F5F5F5;
+    cursor: pointer;
 }
 
 .peope-choosing .choosing-us {
@@ -457,6 +459,7 @@ body {
     box-shadow: 0px 0px 4px 0px #0000005C;
     background-color: #FFFFFF;
     text-align: center;
+    cursor: pointer;
 }
 
 .reason1 h1 {
@@ -518,8 +521,23 @@ body {
 }
 
 .services-header button {
-    border: none;
-    background: none;
+    width: 142px;
+    height: 42px;
+    top: 2561px;
+    left: 549px;
+    padding: 10px, 15px, 10px, 15px;
+    border-radius: 11px;
+    gap: 10px;
+    background: #FFFFFF;
+    color: #355EFC;
+    border: 1px solid #CAD2FC;
+    box-shadow: 0px 0px 4px 0px #0000005C;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    cursor: pointer;
 }
 
 .services-header h1 {
@@ -536,10 +554,12 @@ body {
 
 .services {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 23px;
     width: 100%;
     padding: 0 72px;
+    margin: auto;
 }
 
 .planing {
@@ -613,6 +633,22 @@ body {
     gap: 17px;
 }
 
+.experience .read-more {
+    width: Hug (136px);
+    height: Hug (44px);
+    padding: 10px, 25px, 10px, 25px;
+    border-radius: 10px;
+    gap: 10px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    background: #355EFC;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
 .experience .services-list h4 {
     font-family: Poppins;
     font-size: 16px;
@@ -634,23 +670,107 @@ body {
 }
 
 .call-back {
-    width: 100%;
-    padding: 0 72px;
+    position: absolute;
+    top: 3393px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    z-index: 1;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
     padding: 50px;
     border-radius: 10px;
     border: 1px;
     gap: 20px;
-    border: 1px solid #909DE2
+    border: 1px solid #909DE2;
+    background-color: #FFFFFF;
+}
+
+.form-input {
+    width: 298px;
+    height: 52px;
+    padding: 15px, 1px, 15px, 10px;
+    border-radius: 5px;
+    border: 1px solid #909DE2;
+    gap: 10px;
+    padding: 10px;
+}
+
+#textarea {
+    width: 619px;
+    height: 133px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #909DE2;
+    gap: 20px;
+    resize: none;
+}
+
+.form-container {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.name-email,
+.phone-number {
+    display: flex;
+    gap: 23px;
+}
+
+.blue {
+    margin-top: 85px;
+    width: 100%;
+    height: 346px;
+    background-color: #355EFC;
+}
+
+.get-in-touch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .get-in-touch button {
     width: 125px;
-    height:42px;
+    height: 42px;
     padding: 10px, 15px, 10px, 15px;
     border-radius: 11px;
-    border: 1px;
     gap: 10px;
     background-color: #FFFFFF;
+    border: 1px solid #CAD2FC;
+    color: #355EFC;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    box-shadow: 0px 0px 4px 0px #0000005C;
+
+}
+
+.submit {
+    width: 619px;
+    height: 49px;
+    padding: 10px, 25px, 10px, 25px;
+    border-radius: 5px;
+    gap: 10px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    background-color: #355EFC;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
 }
 
 /* sashualo ekrani */
@@ -1113,6 +1233,7 @@ body {
         height: 44px;
         text-align: center;
         color: #F5F5F5;
+        cursor: pointer;
     }
 
     .peope-choosing .choosing-us {
@@ -1134,6 +1255,7 @@ body {
         box-shadow: 0px 0px 4px 0px #0000005C;
         background-color: #FFFFFF;
         text-align: center;
+        cursor: pointer;
     }
 
     .reason1 h1 {
@@ -1226,8 +1348,23 @@ body {
     }
 
     .services-header button {
-        border: none;
-        background: none;
+        width: 142px;
+        height: 42px;
+        top: 2561px;
+        left: 549px;
+        padding: 10px, 15px, 10px, 15px;
+        border-radius: 11px;
+        gap: 10px;
+        background: #FFFFFF;
+        color: #355EFC;
+        border: 1px solid #CAD2FC;
+        box-shadow: 0px 0px 4px 0px #0000005C;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        cursor: pointer;
     }
 
     .services-header h1 {
@@ -1290,6 +1427,22 @@ body {
         align-items: center;
         gap: 32px;
         width: 100%
+    }
+
+    .experience .read-more {
+        width: Hug (136px);
+        height: Hug (44px);
+        padding: 10px, 25px, 10px, 25px;
+        border-radius: 10px;
+        gap: 10px;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0em;
+        background: #355EFC;
+        color: #FFFFFF;
+        cursor: pointer;
     }
 
     .experience h1 {
@@ -1717,6 +1870,7 @@ body {
         height: 44px;
         text-align: center;
         color: #F5F5F5;
+        cursor: pointer;
     }
 
     .peope-choosing .choosing-us {
@@ -1738,6 +1892,7 @@ body {
         box-shadow: 0px 0px 4px 0px #0000005C;
         background-color: #FFFFFF;
         text-align: center;
+        cursor: pointer;
     }
 
     .reason1 h1 {
@@ -1826,8 +1981,23 @@ body {
     }
 
     .services-header button {
-        border: none;
-        background: none;
+        width: 142px;
+        height: 42px;
+        top: 2561px;
+        left: 549px;
+        padding: 10px, 15px, 10px, 15px;
+        border-radius: 11px;
+        gap: 10px;
+        background: #FFFFFF;
+        color: #355EFC;
+        border: 1px solid #CAD2FC;
+        box-shadow: 0px 0px 4px 0px #0000005C;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        cursor: pointer;
     }
 
     .services-header h1 {
@@ -1932,15 +2102,20 @@ body {
         text-align: left;
     }
 
-    .experience button {
-        width: 136px;
-        height: 44px;
+    .experience .read-more {
+        width: Hug (136px);
+        height: Hug (44px);
         padding: 10px, 25px, 10px, 25px;
         border-radius: 10px;
         gap: 10px;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0em;
         background: #355EFC;
-        border: none;
-        background: none;
+        color: #FFFFFF;
+        cursor: pointer;
     }
 
 }

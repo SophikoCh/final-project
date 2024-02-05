@@ -209,7 +209,7 @@
 
     <section class="our-services">
         <div class="services-header">
-            <button><img src="/fonts/ourservices.png" alt=""></button>
+            <button> Our Services</button>
             <h1>Awesome Financial Services For Business</h1>
         </div>
         <div class="services">
@@ -238,25 +238,29 @@
                         Cash Advanced
                     </h4>
                 </div>
-                <button> <img src="/fonts/read-more.png" alt=""></button>
+                <button class="read-more"> Read more </button>
             </div>
         </div>
     </section>
+    <div class="blue"></div>
     <section class="call-back">
         <div class="get-in-touch">
-            <button> <img src="fonts/inTouch.png"  alt=""> </button>
+            <button> Get in Touch </button>
             <h1>Request A Call-Back</h1>
         </div>
-        <div class="name-email">
-            <input type="name" placeholder="Your Name">
-            <input type="email" placeholder="Ypur Email">
-        </div>
-        <div class="phone-number">
-            <input type="number" placeholder="Your Phone" name="phoneNumber">
-            <input type="subject" placeholder="Your Subject" name="yourSubject" id="">
-        </div>
-        <textarea name="message" id="" cols="55" rows="10"></textarea>
-        <button class="submit"></button>
+        <form action="" class="form-container">
+            <div class="name-email">
+                <input class="form-input" type="name" placeholder="Your Name">
+                <input class="form-input" type="email" placeholder="Ypur Email">
+            </div>
+            <div class="phone-number">
+                <input class="form-input" type="phone" placeholder="Your Phone" name="phoneNumber">
+                <input class="form-input" type="subject" placeholder="Your Subject" name="yourSubject" id="">
+            </div>
+            <textarea name="message" id="textarea" cols="55" rows="10" placeholder="Message"></textarea>
+            <button class="submit"> Submit Now </button>
+        </form>
+
     </section>
 </body>
 
