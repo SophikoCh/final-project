@@ -7,11 +7,10 @@
 
 body {
     width: 1240px;
-
+    right: 0;
     margin: auto;
     display: flex;
     flex-direction: column;
-    /* margin: auto; */
     font-family: 'Jost', 'Open Sans', 'Poppins', sans-serif;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='834' height='697' viewBox='0 0 834 697' fill='none'%3E%3Cpath d='M834 0H0V697C36.8288 664.429 180 610.715 180 610.715C180 610.715 251.121 590.549 268.5 527.793C298.906 532.457 285.791 435.481 363 411.252C449.717 424.279 455.513 374.745 492 291.35C528.487 207.956 569.917 303.29 621 200.584C672.083 97.877 656.775 137.022 730.792 103.584C804.81 70.147 834 0 834 0Z' fill='%23DEE2FB'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
@@ -486,14 +485,44 @@ body {
     margin-top: 47px;
 }
 
+.fast-execution img,
+.third-reason img,
+.fast-execution-blue img {
+    width: 43px;
+    height: 35px;
+}
+
 .fast-execution {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
     padding: 20px;
     border-radius: 15px;
     margin-bottom: 24px;
     border: 1px solid #909DE2
 }
 
+.fast-execution a,
+.third-reason a,
+.fast-execution-blue a {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 100%;
+    height: 24px;
+    gap: 10px;
+    direction: none;
+    display: flex;;
+}
+
+
 .fast-execution-blue {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
     padding: 20px;
     border-radius: 15px;
     border: 1px solid #909DE2;
@@ -502,6 +531,9 @@ body {
 }
 
 .third-reason {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
     padding: 20px;
     border-radius: 15px;
     border: 1px solid #909DE2;
@@ -511,6 +543,7 @@ body {
 
 }
 
+
 .services-header {
     margin-top: 98px;
     display: flex;
@@ -518,6 +551,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-bottom: 64px;
+    gap: 22px;
 }
 
 .services-header button {
@@ -671,7 +705,7 @@ body {
 
 .call-back {
     position: absolute;
-    top: 3393px;
+    top: 84%;
     left: 0;
     right: 0;
     margin: auto;
@@ -696,6 +730,13 @@ body {
     border: 1px solid #909DE2;
     gap: 10px;
     padding: 10px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
 
 #textarea {
@@ -706,6 +747,13 @@ body {
     border: 1px solid #909DE2;
     gap: 20px;
     resize: none;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
 
 .form-container {
@@ -1494,6 +1542,123 @@ body {
         background: none;
     }
 
+    .call-back {
+        position: absolute;
+        top: 96%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        z-index: 1;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        padding: 50px;
+        border-radius: 10px;
+        gap: 20px;
+        border: 1px solid #909DE2;
+        background-color: #FFFFFF;
+    }
+
+    .form-input {
+        width: 298px;
+        height: 52px;
+        padding: 15px, 1px, 15px, 10px;
+        border-radius: 5px;
+        border: 1px solid #909DE2;
+        gap: 10px;
+        padding: 10px;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    #textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid #909DE2;
+        gap: 20px;
+        resize: none;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .form-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .name-email,
+    .phone-number {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 23px;
+    }
+
+    .blue {
+        margin-top: 85px;
+        width: 100%;
+        height: 346px;
+        background-color: #355EFC;
+    }
+
+    .get-in-touch {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .get-in-touch button {
+        width: 125px;
+        height: 42px;
+        border-radius: 11px;
+        gap: 10px;
+        background-color: #FFFFFF;
+        border: 1px solid #CAD2FC;
+        color: #355EFC;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        box-shadow: 0px 0px 4px 0px #0000005C;
+        cursor: pointer;
+    }
+
+    .submit {
+        width: 100%;
+        height: 49px;
+
+        border-radius: 5px;
+        gap: 10px;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0em;
+        background-color: #355EFC;
+        color: #FFFFFF;
+        border: none;
+        cursor: pointer;
+    }
+
 }
 
 /* patara ekrani */
@@ -2010,6 +2175,7 @@ body {
         letter-spacing: 0em;
         text-align: center;
         margin: 0 auto;
+        gap: 20px;
     }
 
     .services {
@@ -2076,7 +2242,7 @@ body {
 
     .experience p {
         width: 100%;
-        height: 72px;
+        height: auto;
         font-family: Poppins;
         font-size: 16px;
         font-weight: 400;
@@ -2103,8 +2269,8 @@ body {
     }
 
     .experience .read-more {
-        width: Hug (136px);
-        height: Hug (44px);
+        width: 136px;
+        height: 44px;
         padding: 10px, 25px, 10px, 25px;
         border-radius: 10px;
         gap: 10px;
@@ -2118,4 +2284,122 @@ body {
         cursor: pointer;
     }
 
+    .call-back {
+        position: absolute;
+        top: 96%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        z-index: 1;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        height: auto;
+        padding: 50px;
+        border-radius: 10px;
+        gap: 20px;
+        border: 1px solid #909DE2;
+        background-color: #FFFFFF;
+    }
+
+    .form-input {
+        width: 100%;
+        height: auto;
+        padding: 15px, 1px, 15px, 10px;
+        border-radius: 5px;
+        border: 1px solid #909DE2;
+        gap: 10px;
+        padding: 10px;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    #textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid #909DE2;
+        gap: 20px;
+        resize: none;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .form-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .name-email,
+    .phone-number {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 23px;
+    }
+
+    .blue {
+        margin-top: 85px;
+        width: 100%;
+        height: 346px;
+        background-color: #355EFC;
+    }
+
+    .get-in-touch {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .get-in-touch button {
+        width: 125px;
+        height: 42px;
+        border-radius: 11px;
+        gap: 10px;
+        background-color: #FFFFFF;
+        border: 1px solid #CAD2FC;
+        color: #355EFC;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        box-shadow: 0px 0px 4px 0px #0000005C;
+        cursor: pointer;
+    }
+
+    .submit {
+        width: 100%;
+        height: 49px;
+
+        border-radius: 5px;
+        gap: 10px;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0em;
+        background-color: #355EFC;
+        color: #FFFFFF;
+        border: none;
+        cursor: pointer;
+    }
 }
