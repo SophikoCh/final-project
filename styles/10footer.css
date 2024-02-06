@@ -1,0 +1,160 @@
+.footer-socmedia {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    top: 4036px;
+    left: 78px;
+
+}
+
+.footer-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    gap: 10px;
+}
+
+.footer-div h1 {
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 259px;
+    height: 31.75px;
+    color: #FFFFFF;
+
+}
+
+.footer-div p {
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer {
+    padding: 78px;
+    top: 3979px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #011A41;
+    width: 1237px;
+    height: 330px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    width: 256px;
+    height: 186px;
+    top: 4034px;
+    left: 343px;
+    gap: 11px;
+}
+
+footer li {
+    list-style: none;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+footer li h1,
+.newsletter h1 {
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.newsletter {
+    width: 262px;
+    height: 145px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+
+}
+
+.newsletter p {
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: start;
+    color: #FFFFFF;
+}
+
+.newsletter input {
+    width: 262px;
+    height: 54px;
+    padding: 15px, 5px, 15px, 5px;
+    border-radius: 5px;
+    gap: 256px;
+}
+
+.newsletter form {
+    width: 262px;
+    height: 54px;
+    border-radius: 5px;
+    display: flex;
+    background-color: #FFFFFF;
+
+}
+
+.input-group button {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    background-color: #355EFC;
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px;
+    gap: 10px;
+    color: #FFFFFF;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+
+}
+
+.input-group input[type="text"] {
+    padding: 5px;
+}
+
+.input-group button {
+    position: absolute;
+    top: 50%;
+    left: 81%;
+    border: none;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}

@@ -1,0 +1,39 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.websitename h1 {
+    flex-shrink: 0;
+    color: var(--main-color, #355EFC);
+    text-align: center;
+    font-family: "Jost";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.menu {
+    margin-left: 306px;
+}
+
+.menu ul {
+    display: flex;
+    width: 424px;
+    align-items: center;
+    gap: 15px;
+    list-style-type: none;
+}
+
+.menu li {
+    color: var(--main-color, #355EFC);
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

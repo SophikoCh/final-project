@@ -1,0 +1,67 @@
+.hidden-cost {
+    border-right: 1px solid #909DE2;
+    padding-left: 20px;
+}
+
+.dedicated-team {
+    border-right: 1px solid #909DE2;
+    padding-left: 20px;
+}
+
+.available {
+    padding-left: 20px;
+}
+
+.benefits {
+    margin: 4.20% 4.57%;
+    padding: 1.82%;
+    border-radius: 25px;
+    gap: 20px;
+    border: 1px solid #909DE2;
+    padding-left: 0.91%;
+    width: 91%;
+}
+
+.offering {
+    display: flex;
+}
+
+.hidden-cost,
+.dedicated-team,
+.available {
+    display: flex;
+    gap: 1.625%;
+    width: 100%;
+}
+
+.close {
+    max-width: 100%;
+    height: auto;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.offering p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 100%;
+}
+
+.offering h4 {
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 100%;
+    align-items: center;
+}

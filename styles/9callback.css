@@ -1,0 +1,130 @@
+.blue-white {
+    display: flex;
+    background: linear-gradient(to bottom, blue 50%, white 50%);
+    width: 100%;
+    height: auto;
+    margin-top: 85px;
+    padding-top: 117px;
+}
+
+.call-back {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    padding: 50px;
+    border-radius: 10px;
+    gap: 20px;
+    border: 1px solid #909DE2;
+    background: #FFF;
+    width: 719px;
+    height: 586px;
+
+
+}
+
+.form-input {
+    width: 298px;
+    height: 52px;
+    padding: 15px, 1px, 15px, 10px;
+    border-radius: 5px;
+    border: 1px solid #909DE2;
+    gap: 10px;
+    padding: 10px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+#textarea {
+    width: 619px;
+    height: 133px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #909DE2;
+    gap: 20px;
+    resize: none;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.form-container {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.name-email,
+.phone-number {
+    display: flex;
+    gap: 23px;
+}
+
+.blue {
+    margin-top: 85px;
+    width: 100%;
+    height: 346px;
+    background-color: #355EFC;
+}
+
+.white {
+    width: 100%;
+    height: 346px;
+    background-color: #FFFFFF
+}
+
+.get-in-touch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.get-in-touch button {
+    width: 125px;
+    height: 42px;
+    padding: 10px, 15px, 10px, 15px;
+    border-radius: 11px;
+    gap: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #CAD2FC;
+    color: #355EFC;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    box-shadow: 0px 0px 4px 0px #0000005C;
+
+}
+
+.submit {
+    width: 619px;
+    height: 49px;
+    padding: 10px, 25px, 10px, 25px;
+    border-radius: 5px;
+    gap: 10px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    background-color: #355EFC;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
