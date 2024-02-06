@@ -172,3 +172,309 @@
     margin-left: 11px;
     margin-right: 80px;
 }
+
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+
+    .why {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .peope-choosing {
+        display: flex;
+        flex-direction: column;
+        padding-top: 140px;
+        gap: 20px;
+        padding: 72px;
+    }
+
+    .peope-choosing h1 {
+        font-family: Jost;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .peope-choosing p {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .peope-choosing .explore {
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding: 10px, 25px, 10px, 25px;
+        border-radius: 10px;
+        gap: 10px;
+        background-color: #355EFC;
+        border: none;
+        width: 157px;
+        height: 44px;
+        text-align: center;
+        color: #F5F5F5;
+        cursor: pointer;
+    }
+
+    .peope-choosing .choosing-us {
+        width: 134px;
+        height: 22px;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        border-radius: 11px;
+        Border: 1px;
+        width: 157px;
+        height: 44px;
+        padding: 10px, 25px, 10px, 25px;
+        gap: 10px;
+        color: #355EFC;
+        box-shadow: 0px 0px 4px 0px #0000005C;
+        background-color: #FFFFFF;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .reason1 h1 {
+        font-family: Jost;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .reason1 p {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .fast-execution {
+
+        padding: 20px;
+        border-radius: 15px;
+        gap: 18px;
+        border: 1px solid #909DE2;
+        margin-bottom: 24px;
+
+    }
+
+    .fast-execution-blue {
+
+        padding: 20px;
+        border-radius: 15px;
+        gap: 18px;
+        border: 1px solid #909DE2;
+        background: #355EFC;
+        color: #FFFFFF;
+    }
+
+    .third-reason h1 {
+        font-family: Jost;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .third-reason h1 {
+        font-family: Jost;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .third-reason p {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .third-reason {
+        padding: 20px;
+        border-radius: 15px;
+        border: 1px solid #909DE2;
+        margin-top: 20px;
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .why {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .peope-choosing {
+        display: flex;
+        flex-direction: column;
+        padding-top: 140px;
+        padding: 72px;
+    }
+
+    .peope-choosing h1 {
+        font-family: Jost;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .peope-choosing p {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        display: none;
+    }
+
+    .peope-choosing .explore {
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding: 10px, 25px, 10px, 25px;
+        border-radius: 10px;
+        gap: 10px;
+        background-color: #355EFC;
+        border: none;
+        width: 157px;
+        height: 44px;
+        text-align: center;
+        color: #F5F5F5;
+        cursor: pointer;
+    }
+
+    .peope-choosing .choosing-us {
+        width: 134px;
+        height: 22px;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        border-radius: 11px;
+        Border: 1px;
+        width: 157px;
+        height: 44px;
+        padding: 10px, 25px, 10px, 25px;
+        gap: 10px;
+        color: #355EFC;
+        box-shadow: 0px 0px 4px 0px #0000005C;
+        background-color: #FFFFFF;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .reason1 h1 {
+        font-family: Jost;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .reason1 {
+        margin-top: 20px;
+    }
+
+    .reason1 p {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        display: none;
+    }
+
+    .fast-execution {
+        padding: 20px;
+        border-radius: 15px;
+        gap: 18px;
+        border: 1px solid #909DE2;
+        margin-bottom: 24px;
+    }
+
+    .fast-execution-blue {
+        padding: 20px;
+        border-radius: 15px;
+        gap: 18px;
+        border: 1px solid #909DE2;
+        background: #355EFC;
+        color: #FFFFFF;
+    }
+
+    .third-reason {
+
+        padding: 20px;
+        border-radius: 15px;
+        gap: 18px;
+        border: 1px solid #909DE2;
+        height: max-content;
+        gap: 18px;
+        margin-top: 20px;
+        margin-left: 80px;
+        margin-right: 80px;
+
+    }
+
+    .third-reason h1 {
+        font-family: Jost;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .third-reason p {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        display: none;
+    }
+}

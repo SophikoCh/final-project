@@ -65,3 +65,167 @@
     width: 100%;
     align-items: center;
 }
+
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+    .hidden-cost {
+        border-right: none;
+        border-bottom: 1px solid #909DE2;
+        padding-left: 20px;
+        padding-bottom: 13px;
+    }
+
+    .dedicated-team {
+        border-right: none;
+        border-bottom: 1px solid #909DE2;
+        padding-left: none;
+        padding-bottom: 13px;
+        padding-top: 13px;
+    }
+
+    .available {
+        padding-left: none;
+        padding-bottom: 13px;
+        padding-top: 13px;
+    }
+
+    .benefits {
+        margin: 46px 72px;
+        padding: 20px;
+        border-radius: 25px;
+        gap: 20px;
+        border: 1px solid #909DE2;
+        width: auto;
+        padding-left: 10px;
+    }
+
+    .offering {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .hidden-cost,
+    .dedicated-team,
+    .available {
+        display: flex;
+        gap: 10px;
+        margin: 0 auto;
+        width: fit-content;
+    }
+
+    .close {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .icon {
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+    }
+
+    .hidden-cost h4,
+    .dedicated-team h4,
+    .available h4 {
+        font-family: Jost;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 172px;
+        height: 29px;
+        align-items: center;
+
+    }
+
+    .hidden-cost p,
+    .dedicated-team p,
+    .available p {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: fit-content;
+        height: 48px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .hidden-cost {
+        border-right: none;
+        border-bottom: 1px solid #909DE2;
+        padding-left: none;
+        padding-bottom: 13px;
+    }
+
+    .dedicated-team {
+        border-right: none;
+        border-bottom: 1px solid #909DE2;
+        padding-left: none;
+        padding-bottom: 13px;
+        padding-top: 13px;
+    }
+
+    .available {
+        padding-left: none;
+        padding-bottom: 13px;
+        padding-top: 13px;
+    }
+
+    .benefits {
+        margin: 70px 30px;
+        padding: 20px 20px 20px 10px;
+        border-radius: 25px;
+        gap: 20px;
+        border: 1px solid #909DE2;
+
+    }
+
+    .offering {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hidden-cost,
+    .dedicated-team,
+    .available {
+        display: flex;
+        gap: 10px;
+        margin: 0 auto;
+    }
+
+    .close {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .icon {
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+    }
+
+    .offering h4 {
+        font-family: Jost;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        align-items: center;
+
+    }
+
+    .offering p {
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+}

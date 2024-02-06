@@ -1,21 +1,211 @@
 .footer-socmedia {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  top: 4036px;
+  left: 78px;
+}
+
+.footer-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  gap: 10px;
+}
+
+.footer-div h1 {
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 259px;
+  height: 31.75px;
+  color: #ffffff;
+}
+
+.footer-div p {
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer {
+  top: 3979px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #011a41;
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  padding: 78px;
+}
+
+.footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  width: 256px;
+  height: 186px;
+  top: 4034px;
+  left: 343px;
+  gap: 11px;
+}
+
+.footer li {
+  list-style: none;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+footer li h1,
+.newsletter h1 {
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.newsletter {
+  width: 262px;
+  height: 145px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.newsletter p {
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: start;
+  color: #ffffff;
+}
+
+.newsletter input {
+  width: 262px;
+  height: 54px;
+  border: none;
+  border-radius: 5px;
+  gap: 256px;
+}
+
+.newsletter form {
+  width: 262px;
+  height: 54px;
+  border-radius: 5px;
+  display: flex;
+  background-color: #ffffff;
+}
+
+.input-group button {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  background-color: #355efc;
+  padding: 8px;
+  text-align: center;
+  border-radius: 5px;
+  gap: 10px;
+  color: #ffffff;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+}
+
+.input-group input[type='text'] {
+  padding: 5px;
+}
+
+.input-group button {
+  position: absolute;
+  top: 50%;
+  left: 81%;
+  border: none;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.page-ending {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 88px;
+  padding: 0 72px;
+  gap: 296px;
+  ;
+}
+
+.page-ending p {
+  color: white;
+  width: 100%;
+}
+
+.page-ending a {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;  
+  color: white;
+  cursor: pointer;
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+  .footer-socmedia {
     display: flex;
     justify-content: space-between;
     align-items: start;
     top: 4036px;
     left: 78px;
 
-}
+  }
 
-.footer-div {
+  .footer-div {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: start;
     gap: 10px;
-}
+    width: 259px;
+    height: 127px;
+  }
 
-.footer-div h1 {
+  .footer-div h1 {
     font-family: Jost;
     font-size: 24px;
     font-weight: 700;
@@ -26,9 +216,9 @@
     height: 31.75px;
     color: #FFFFFF;
 
-}
+  }
 
-.footer-div p {
+  .footer-div p {
     font-family: Jost;
     font-size: 16px;
     font-weight: 400;
@@ -36,23 +226,25 @@
     letter-spacing: 0em;
     text-align: center;
     color: #FFFFFF;
-}
+  }
 
-footer {
-    padding: 78px;
+  .footer {
     top: 3979px;
     left: 0;
     right: 0;
     bottom: 0;
     background-color: #011A41;
     width: 100%;
-    height: 330px;
+    height: auto;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-}
+    gap: 50px;
+  }
 
-footer ul {
+  .footer ul {
     display: flex;
     flex-direction: column;
     gap: 11px;
@@ -61,9 +253,9 @@ footer ul {
     top: 4034px;
     left: 343px;
     gap: 11px;
-}
+  }
 
-footer li {
+  .footer li {
     list-style: none;
     font-family: Open Sans;
     font-size: 16px;
@@ -72,10 +264,10 @@ footer li {
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
-}
+  }
 
-footer li h1,
-.newsletter h1 {
+  .footer li h1,
+  .newsletter h1 {
     font-family: Jost;
     font-size: 24px;
     font-weight: 700;
@@ -83,18 +275,19 @@ footer li h1,
     letter-spacing: 0em;
     text-align: left;
 
-}
+  }
 
-.newsletter {
-    width: 262px;
+  .newsletter {
     height: 145px;
     display: flex;
     flex-direction: column;
     gap: 11px;
+    width: 262px;
+    height:145px;
 
-}
+  }
 
-.newsletter p {
+  .newsletter p {
     font-family: Jost;
     font-size: 16px;
     font-weight: 400;
@@ -102,26 +295,26 @@ footer li h1,
     letter-spacing: 0em;
     text-align: start;
     color: #FFFFFF;
-}
+  }
 
-.newsletter input {
+  .newsletter input {
     width: 262px;
     height: 54px;
     padding: 15px, 5px, 15px, 5px;
     border-radius: 5px;
     gap: 256px;
-}
+  }
 
-.newsletter form {
+  .newsletter form {
     width: 262px;
     height: 54px;
     border-radius: 5px;
     display: flex;
     background-color: #FFFFFF;
 
-}
+  }
 
-.input-group button {
+  .input-group button {
     font-family: Open Sans;
     font-size: 16px;
     font-weight: 400;
@@ -133,28 +326,235 @@ footer li h1,
     border-radius: 5px;
     gap: 10px;
     color: #FFFFFF;
-}
+  }
 
-footer a {
+  .footer a {
     text-decoration: none;
     color: #FFFFFF;
-}
+  }
 
-.input-group {
+  .input-group {
     position: relative;
     display: flex;
 
-}
+  }
 
-.input-group input[type="text"] {
-    padding: 5px;
-}
+  .input-group input[type="text"] {
+    padding-right: 40px;
+  }
 
-.input-group button {
+  .input-group button {
     position: absolute;
     top: 50%;
     left: 81%;
-    border: none;
     transform: translate(-50%, -50%);
+  }
+
+  .page-ending {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 88px;
+    padding: 30px;
+    gap: 296px;
+    padding: 72px;
+    ;
+  }
+
+  .page-ending p {
+    color: white;
+    width: 100%;
+  }
+
+  .page-ending a {
+
+    color: white;
     cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .footer-socmedia {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    top: 4036px;
+    left: 78px;
+
+  }
+
+  .footer-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    gap: 10px;
+  }
+
+  .footer-div h1 {
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 259px;
+    height: 31.75px;
+    color: #FFFFFF;
+
+  }
+
+  .footer-div p {
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .footer {
+    padding: 78px;
+    top: 90%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #011A41;
+    width: 100%;
+    gap: 60px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    width: 256px;
+    height: 186px;
+    top: 4034px;
+    left: 343px;
+    gap: 11px;
+  }
+
+  .footer li {
+    list-style: none;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+  }
+
+  .footer li h1,
+  .newsletter h1 {
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }
+
+  .newsletter {
+    width: 262px;
+    height: 145px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+
+  }
+
+  .newsletter p {
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: start;
+    color: #FFFFFF;
+  }
+
+  .newsletter input {
+    width: 262px;
+    height: 54px;
+    padding: 15px, 5px, 15px, 5px;
+    border-radius: 5px;
+    gap: 256px;
+  }
+
+  .newsletter form {
+    width: 262px;
+    height: 54px;
+    border-radius: 5px;
+    display: flex;
+    background-color: #FFFFFF;
+
+  }
+
+  .input-group button {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    background-color: #355EFC;
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px;
+    gap: 10px;
+    color: #FFFFFF;
+  }
+
+  .footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+
+  .input-group {
+    position: relative;
+    display: flex;
+
+  }
+
+  .input-group input[type="text"] {
+    padding: 5px;
+  }
+
+  .input-group button {
+    position: absolute;
+    top: 50%;
+    left: 81%;
+    transform: translate(-50%, -50%);
+  }
+
+  .page-ending {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 72px;
+    gap: 20%;
+  }
+
+  .page-ending p {
+    color: white;
+    width: 100%;
+  }
+
+  .page-ending a {
+
+    color: white;
+    cursor: pointer;
+  }
+
 }
