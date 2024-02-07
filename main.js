@@ -3,13 +3,13 @@ function updateContent(contentType) {
 
   switch (contentType) {
     case 'story':
-      h1Element.textContent = 'we begin our journey 12 years ago ...'
+      h1Element.textContent = 'Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit.Aliqu diam amet diam et eos labore.  Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit'
       break
     case 'mission':
-      h1Element.textContent = 'our mission is to make your journey better ...'
+      h1Element.textContent = 'Clita erat ipsum et lorem et sit, Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit.Aliqu diam amet diam et eos labore. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore.'
       break
     case 'vision':
-      h1Element.textContent = 'we want to make your experiences better ...'
+      h1Element.textContent = 'we want to make your experiences better,Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit '
       break
     default:
       h1Element.textContent = 'Default Content'
@@ -17,7 +17,6 @@ function updateContent(contentType) {
   }
 }
 updateContent('story')
-
 
 function validateForm() {
   let phoneError = document.getElementById('phoneError')
@@ -75,5 +74,51 @@ function validateForm() {
   } else {
     emailError.innerHTML = ''
     emailInput.style.border = '1px solid #909DE2'
+  }
+}
+
+const slides = document.querySelectorAll('.slides img')
+let slideIndex = 0
+document.addEventListener('DOMContentLoaded', initializeSlider)
+
+function initializeSlider() {
+  if (slides.length > 0) {
+    slides[slideIndex].classList.add('displaySlide')
+  }
+}
+
+function showSlide(index) {
+  if (index >= slides.length) {
+    slideIndex = 0
+  } else if (index < 0) {
+    slideIndex = slides.length - 1
+  }
+  slides.forEach((slide) => {
+    slide.classList.remove('displaySlide')
+  })
+  slides[slideIndex].classList.add('displaySlide')
+}
+function prevSlide() {
+  slideIndex--
+  showSlide(slideIndex)
+}
+function nextSlide() {
+  slideIndex++
+  showSlide(slideIndex)
+}
+
+function toggleText() {
+  let points = document.getElementById('points')
+  let showMoreText = document.getElementById('text')
+  let showbtn = document.getElementById('show')
+
+  if (points.style.display === 'none') {
+    showMoreText.style.display = 'none'
+    points.style.display = 'inline'
+    showbtn.innerHTML = 'explore more'
+  } else {
+    showMoreText.style.display = 'inline'
+    points.style.display = 'none'
+    showbtn.innerHTML = 'show less'
   }
 }

@@ -4,7 +4,7 @@
     align-items: first baseline;
     gap: 25px;
     padding-left: 72px;
-    padding-top: 97px;
+    padding-top: 200px;
 }
 
 .welcometo button {
@@ -52,6 +52,46 @@
     border: none;
 }
 
+.slider {
+    z-index: -1;
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    top: 0;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+  }
+  .slider img {
+    width: 100%;
+    height: auto;
+    align-items: end;
+    display: none;
+  }
+  img.displaySlide {
+    display: block;
+  }
+  .prev,
+  .next {
+    position: absolute;
+    top: 392px;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    padding: 10px 15px;
+    background-color: hsla(207, 80%, 66%, 0.5);
+    color: blue;
+    border: none;
+    cursor: pointer;
+  }
+  .prev {
+    left: 0;
+    border-radius: 0 50% 50% 0;
+  }
+  .next {
+    right: 0;
+    border-radius: 50% 0 0 50%;
+  }
+
 @media only screen and (min-width: 576px) and (max-width: 991px) {
     .welcometo {
         display: flex;
@@ -59,7 +99,7 @@
         align-items: first baseline;
         gap: 25px;
         padding: 0 30px;
-        padding-top: 50px;
+        padding-top: 150px;
     }
 
     .welcometo button {

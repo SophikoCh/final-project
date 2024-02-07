@@ -8,22 +8,22 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link href="https://fonts.googleapis.com/css2?family=Jost&family=Open+Sans&family=Poppins&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="/styles/1header.css">
-    <link rel="stylesheet" href="/styles/2navigation.css">
-    <link rel="stylesheet" href="/styles/3slider.css">
-    <link rel="stylesheet" href="/styles/4aboutus.css">
-    <link rel="stylesheet" href="/styles/5benefits.css">
-    <link rel="stylesheet" href="/styles/6statistics.css">
-    <link rel="stylesheet" href="/styles/7why.css">
-    <link rel="stylesheet" href="/styles/8ourservices.css">
-    <link rel="stylesheet" href="/styles/9callback.css">
-    <link rel="stylesheet" href="/styles/10footer.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/navigation.css">
+    <link rel="stylesheet" href="/styles/slider.css">
+    <link rel="stylesheet" href="/styles/aboutus.css">
+    <link rel="stylesheet" href="/styles/benefits.css">
+    <link rel="stylesheet" href="/styles/statistics.css">
+    <link rel="stylesheet" href="/styles/why.css">
+    <link rel="stylesheet" href="/styles/ourservices.css">
+    <link rel="stylesheet" href="/styles/callback.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+    <link rel="stylesheet" href="/styles/endpage.css">
 
 </head>
 
 <body>
     <header class="infocontainer">
-
         <div class="headerinfo">
             <div class="location">
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
@@ -86,21 +86,39 @@
                 </ul>
             </div>
             <div class="socmedia">
-                <a href=""><img src="/fonts/Frame 33F.png" alt="facebook"></a>
-                <a href=""><img src="/fonts/Frame 34Twiter.png" alt="twiter"></a>
-                <a href=""><img src="/fonts/Frame 35Linkedin.png" alt="linkedin"></a>
+                <a href=""><img src="/images/Frame 33F.png" alt="facebook"></a>
+                <a href=""><img src="/images/Frame 34Twiter.png" alt="twiter"></a>
+                <a href=""><img src="/images/Frame 35Linkedin.png" alt="linkedin"></a>
             </div>
         </section>
         <section class="sliders">
             <div class="welcometo">
-                <button>Welcome to Finanza</button>
-                <h1>Your Financial Status Is Our Goal</h1>
-                <button class="exploremore">explore more</button>
+              <button>Welcome to Finanza</button>
+              <h1>Your Financial Status Is Our Goal</h1>
+              <button class="exploremore">explore more</button>
             </div>
-        </section>
+            <div class="slider">
+              <div class="slides">
+                <img
+                  class="slide"
+                  src="https://themewagon.github.io/finanza/img/carousel-2.jpg"
+                  alt="Image #1"
+                />
+                <img
+                  class="slide"
+                  src="https://themewagon.github.io/finanza/img/carousel-1.jpg"
+                  alt="Image #2"
+                />
+              </div>
+              
+            </div>
+            <button class="prev" onclick="prevSlide()"><</button>
+            <button class="next" onclick="nextSlide()">></button>
+          </section>
+    
         <section class="aboutus">
             <div class="growbussiness">
-                <img src="/fonts/bussinesman.png" id="bussinesimg" alt="">
+                <img src="/images/bussinesman.png" id="bussinesimg" alt="">
                 <div class="changetxt">
                     <div class="aboutcomponent">
                         <button> About Us </button>
@@ -123,7 +141,7 @@
             <div class="offering">
                 <div class="hidden-cost">
                     <div class="close">
-                        <img src="fonts/closeclose.png" alt="">
+                        <img src="images/closeclose.png" alt="">
                     </div>
                     <div class="icon">
                         <h4>No Hidden Cost</h4>
@@ -132,7 +150,7 @@
                 </div>
                 <div class="dedicated-team">
                     <div class="user">
-                        <img src="fonts/usersusers.png" alt="">
+                        <img src="images/usersusers.png" alt="">
                     </div>
                     <div class="icon">
                         <h4> Dedicated Team</h4>
@@ -140,7 +158,7 @@
                     </div>
                 </div>
                 <div class="available">
-                    <div class="phone-icon"><img src="fonts/phonephone.png" alt=""></div>
+                    <div class="phone-icon"><img src="images/phonephone.png" alt=""></div>
                     <div class="icon">
                         <h4>24/7 Available</h4>
                         <p>Clita erat ipsum lorem sit sed stet duo justo</p>
@@ -151,59 +169,72 @@
         <section class="statistics">
             <div class="result">
                 <div class="happy-clients">
-                    <img src="./fonts/happyuser.png" alt="">
+                    <img src="./images/happyuser.png" alt="">
                     <h1>1234</h1>
                     <p>Happy clients</p>
-                    <img src="./fonts/Line 2.png" alt="">
+                    <img src="./images/Line 2.png" alt="">
                 </div>
                 <div class="proj-completed">
-                    <img src="./fonts/Vectorcompleted.png" alt="">
+                    <img src="./images/Vectorcompleted.png" alt="">
                     <h1>1234</h1>
                     <p>Project Completed</p>
-                    <img src="./fonts/Line 2.png" alt="">
+                    <img src="./images/Line 2.png" alt="">
                 </div>
                 <div class="dedicated-staff">
-                    <img src="./fonts/Vectorstaff1.png" alt="">
+                    <img src="./images/Vectorstaff1.png" alt="">
                     <h1>1234</h1>
                     <p>Dedicated Staff</p>
-                    <img src="./fonts/Line 2.png" alt="">
+                    <img src="./images/Line 2.png" alt="">
                 </div>
                 <div class="dedicated-staff2">
-                    <img src="./fonts/Vectorsraff2.png" alt="">
+                    <img src="./images/Vectorsraff2.png" alt="">
                     <h1>1234</h1>
                     <p>Dedicated Staff</p>
-                    <img src="./fonts/Line 2.png" alt="">
+                    <img src="./images/Line 2.png" alt="">
                 </div>
             </div>
         </section>
         <section class="why">
             <div class="peope-choosing">
-                <button class="choosing-us"> Why Choosing Us! </button>
+                <button class="choosing-us">Why Choosing Us!</button>
                 <h1>Few Reasons Why People Choosing Us!</h1>
-                <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat
-                    ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                <button class="explore"> explore more</button>
-            </div>
+                <p>
+                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+                  diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
+                  lorem sit clita duo justo magna dolore erat amet
+                </p>
+                <span id="points"></span>
+                <p id="text">
+                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+                  diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
+                  lorem sit clita duo justo magna dolore erat amet elitr rebum at clita.
+                  Diam dolor diam ipsum sit diam amet diam et. Diam dolor diam ipsum
+                  lorem sit clita duo magna dolore erat elitr magna
+                </p>
+                <button class="explore" id="show" onclick="toggleText()">
+                  explore more
+                </button>
+              </div>
 
             <div class="reason1">
                 <div class="fast-execution">
-                    <img src="fonts/reasons.png" alt="">
+                    <img src="images/reasons.png" alt="">
                     <h1>Fast Executions</h1>
                     <p>Clita erat ipsum et lorem et sit,sed stet lorem sit clita duo justo erat amet</p>
-                    <a> Read More <img src="/fonts/blue-vect.png" alt="" class="vector"> </a>
+                    <a> Read More <img src="/images/blue-vect.png" alt="" class="vector"> </a>
                 </div>
                 <div class="fast-execution-blue">
-                    <img src="/fonts/whitereason.png" alt="">
+                    <img src="/images/whitereason.png" alt="">
                     <h1>Fast Executions </h1>
                     <p>Clita erat ipsum et lorem et sit,sed stet lorem sit clita duo justo erat amet</p>
-                    <a href="/"> Read More<img src="/fonts/white-vector.png" alt="" class="vector"></a>
+                    <a href="/"> Read More<img src="/images/white-vector.png" alt="" class="vector"></a>
                 </div>
             </div>
             <div class="third-reason">
-                <img src="/fonts/reasons.png" alt="">
+                <img src="/images/reasons.png" alt="">
                 <h1>Fast Executions </h1>
                 <p>Clita erat ipsum et lorem et sit,sed stet lorem sit clita duo justo erat amet</p>
-                <a href="/"> Read More <img src="/fonts/blue-vect.png" alt="" class="vector"> </a>
+                <a href="/"> Read More <img src="/images/blue-vect.png" alt="" class="vector"> </a>
             </div>
 
         </section>
@@ -215,12 +246,12 @@
             </div>
             <div class="services">
                 <div class="planing">
-                    <button> <img src="/fonts/white- lines.png" alt=""> Financial Planing</button>
-                    <button> <img src="fonts/blue-lines.png" alt=""> Financial Planing</button>
-                    <button><img src="fonts/blue-lines.png" alt=""> Financial Planing</button>
-                    <button><img src="fonts/blue-lines.png" alt=""> Financial Planing</button>
+                    <button> <img src="/images/white- lines.png" alt=""> Financial Planing</button>
+                    <button> <img src="images/blue-lines.png" alt=""> Financial Planing</button>
+                    <button><img src="images/blue-lines.png" alt=""> Financial Planing</button>
+                    <button><img src="images/blue-lines.png" alt=""> Financial Planing</button>
                 </div>
-                <img src="/fonts/tab-image.png" alt="">
+                <img src="/images/tab-image.png" alt="">
                 <div class="experience">
                     <h1>25 Years Of Experience In Financial Support</h1>
                     <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita
@@ -228,15 +259,15 @@
                         ipsum et lorem et sit, sed stet </p>
                     <div class="services-list">
                         <h4>
-                            <img src="/fonts/smaller.png" alt="">
+                            <img src="/images/smaller.png" alt="">
                             Secured Loans
                         </h4>
                         <h4>
-                            <img src="/fonts/smaller.png" alt="">
+                            <img src="/images/smaller.png" alt="">
                             Credit Facilities
                         </h4>
                         <h4>
-                            <img src="/fonts/smaller.png" alt="">
+                            <img src="/images/smaller.png" alt="">
                             Cash Advanced
                         </h4>
                     </div>
@@ -293,26 +324,26 @@
             <div class="footer-div">
                 <h1>Our Office</h1>
                 <p>
-                    <img src="/fonts/Frame 15location-footer.png" alt="" />
+                    <img src="/images/Frame 15location-footer.png" alt="" />
                     123 Street, New York, USA
                 </p>
                 <p>
                     <a href="+012 345 67890" target="_blank">
-                        <img src="/fonts/Vectorphone-footer.png" alt="" />
+                        <img src="/images/Vectorphone-footer.png" alt="" />
                         +012 345 67890
                     </a>
                 </p>
                 <p>
                     <a href="mailto:info@example.com" target="_blank">
-                        <img src="/fonts/Vectoremail-footer.png" alt="" />
+                        <img src="/images/Vectoremail-footer.png" alt="" />
                         info@example.com
                     </a>
                 </p>
                 <div class="footer-socmedia">
-                    <img src="/fonts/tweeter-footer.png" alt="" />
-                    <img src="/fonts/Frame 22youtube-footer.png" alt="" />
-                    <img src="/fonts/Frame 23facebook-footer.png" alt="" />
-                    <img src="/fonts/Frame 24linkdin-footer.png" alt="" />
+                    <img src="/images/tweeter-footer.png" alt="" />
+                    <img src="/images/Frame 22youtube-footer.png" alt="" />
+                    <img src="/images/Frame 23facebook-footer.png" alt="" />
+                    <img src="/images/Frame 24linkdin-footer.png" alt="" />
                 </div>
             </div>
             <ul>
@@ -320,23 +351,23 @@
                     <h1>Services</h1>
                 </li>
                 <li>
-                    <img src="/fonts/Vectorservices-vector.png" alt="" />
+                    <img src="/images/Vectorservices-vector.png" alt="" />
                     <a href="">Financial Planing</a>
                 </li>
                 <li>
-                    <img src="/fonts/Vectorservices-vector.png" alt="" />
+                    <img src="/images/Vectorservices-vector.png" alt="" />
                     <a href="">Cash Investment</a>
                 </li>
                 <li>
-                    <img src="/fonts/Vectorservices-vector.png" alt="" />
+                    <img src="/images/Vectorservices-vector.png" alt="" />
                     <a href="">Financial Consultancy</a>
                 </li>
                 <li>
-                    <img src="/fonts/Vectorservices-vector.png" alt="" />
+                    <img src="/images/Vectorservices-vector.png" alt="" />
                     <a href="">Business Loans</a>
                 </li>
                 <li>
-                    <img src="/fonts/Vectorservices-vector.png" alt="" />
+                    <img src="/images/Vectorservices-vector.png" alt="" />
                     <a href="">Business Analysis</a>
                 </li>
             </ul>
@@ -345,34 +376,27 @@
                     <h1>Quick Links</h1>
                 </li>
                 <li>
-                    <img src="/fonts/Vectorservices-vector.png" alt="" />
+                    <img src="/images/Vectorservices-vector.png" alt="" />
                     <a href="/">About Us</a>
                 </li>
                 <li>
-                    <img src="/fonts/Vectorservices-vector.png" alt="" />
+                    <img src="/images/Vectorservices-vector.png" alt="" />
                     <a href="/">Contact Us</a>
                 </li>
                 <li>
-                    <img src="/fonts/Vectorservices-vector.png" alt="" />
+                    <img src="/images/Vectorservices-vector.png" alt="" />
                     <a href="/">Our services</a>
                 </li>
                 <li>
-                    <img src="/fonts/Vectorservices-vector.png" alt="" />
+                    <img src="/images/Vectorservices-vector.png" alt="" />
                     <a href="/">Terms & Condition</a>
                 </li>
                 <li>
-                    <img src="/fonts/Vectorservices-vector.png" alt="" />
+                    <img src="/images/Vectorservices-vector.png" alt="" />
                     <a href="/">Support</a>
                 </li>
             </ul>
-            <!-- <div class="newsletter">
-                    <h1><a href="">Newsletter</a></h1>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <form action="">
-                        <input type="text" placeholder="Your Email">
-                        <button> SingUp </button>
-                    </form>
-                </div> -->
+        
             <div class="newsletter">
                 <h1><a href="">Newsletter</a></h1>
                 <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>

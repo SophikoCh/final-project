@@ -56,8 +56,52 @@
 
 .tabcomponent {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    gap: 50px;
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
 }
+
+.tabcomponent button {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    color: #555555;
+
+}
+
+.tabcomponent button:focus {
+    border-top: 1px solid #DEE2E6;
+    border-left: 1px solid #DEE2E6;
+    border-right: 1px solid #DEE2E6;
+}
+#content {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 517px;
+    height: 174.57px;
+    top: 24.73px;
+    left: 3.22px;
+    padding-top: 20px;
+    color: #555555;
+}
+
+
 
 @media only screen and (min-width: 576px) and (max-width: 991px) {
 
@@ -120,6 +164,54 @@
         line-height: 24px;
         width: 100%;
     }
+
+    .tabcomponent {
+        display: flex;
+        justify-content: left;
+        gap: 50px;
+        width: 100%;
+        height: auto;
+        padding-top: 60px;
+    }
+    
+    .tabcomponent button {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: 2px solid transparent;
+        cursor: pointer;
+        color: #555555;
+    
+    }
+    
+    .tabcomponent button:focus {
+        border-top: 1px solid #DEE2E6;
+        border-left: 1px solid #DEE2E6;
+        border-right: 1px solid #DEE2E6;
+    }
+    #content {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 517px;
+        height: 174.57px;
+        top: 24.73px;
+        left: 3.22px;
+        padding-top: 20px;
+        color: #555555;
+    }
+    
 }
 
 @media only screen and (max-width: 576px) {
@@ -183,4 +275,53 @@
         line-height: 24px;
 
     }
+
+    .tabcomponent {
+        display: flex;
+        justify-content: left;
+        gap: 0;
+        width: 100%;
+        height: auto;
+        padding-top: 60px;
+        flex-wrap: wrap;
+
+    }
+    
+    .tabcomponent button {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: 2px solid transparent;
+        cursor: pointer;
+        color: #555555;
+    }
+    
+    .tabcomponent button:focus {
+        border-top: 1px solid #DEE2E6;
+        border-left: 1px solid #DEE2E6;
+        border-right: 1px solid #DEE2E6;
+    }
+    #content {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 100%;
+        height: auto;
+        top: 24.73px;
+        left: 3.22px;
+        padding-top: 20px;
+        color: #555555;
+    }
+    
 }

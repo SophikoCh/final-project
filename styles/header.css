@@ -11,8 +11,6 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Jost', 'Open Sans', 'Poppins', sans-serif;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='834' height='697' viewBox='0 0 834 697' fill='none'%3E%3Cpath d='M834 0H0V697C36.8288 664.429 180 610.715 180 610.715C180 610.715 251.121 590.549 268.5 527.793C298.906 532.457 285.791 435.481 363 411.252C449.717 424.279 455.513 374.745 492 291.35C528.487 207.956 569.917 303.29 621 200.584C672.083 97.877 656.775 137.022 730.792 103.584C804.81 70.147 834 0 834 0Z' fill='%23DEE2FB'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
     position: absolute;
     top: 0;
     left: 0;
