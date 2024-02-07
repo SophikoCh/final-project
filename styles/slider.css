@@ -145,6 +145,19 @@
         line-height: 20px;
         border: none;
     }
+    .prev,
+    .next {
+      position: absolute;
+      top: 220px;
+      transform: translateY(-50%);
+      font-size: 2rem;
+      padding: 10px 15px;
+      background-color: hsla(207, 80%, 66%, 0.5);
+      color: blue;
+      border: none;
+      cursor: pointer;
+    }
+    
 }
 
 
@@ -201,5 +214,17 @@
         font-weight: 700;
         line-height: 20px;
         border: none;
+    }
+    .prev,
+    .next {
+      position: absolute;
+      top: 200px;
+      transform: translateY(-50%);
+      font-size: 1rem;
+      padding: 10px 15px;
+      background-color: hsla(207, 80%, 66%, 0.5);
+      color: blue;
+      border: none;
+      cursor: pointer;
     }
 }
